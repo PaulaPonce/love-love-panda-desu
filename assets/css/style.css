@@ -1,8 +1,103 @@
-/*
-Colores & tipografía: 
-Verde - #ABE188;
-Rosa - #F78E69;
-font-family: 'Raleway', sans-serif;
-*/
+*{
+	background-color: #F78E69;
+	color: whitesmoke;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
 
-/* Escribe tu código acá debajo */
+/*Sección inicio*/
+#inicio{
+	text-align: right;
+}
+
+#inicio h1{
+	font-size: 55px;
+	padding: 80px 60px 10px 0;
+}
+
+#inicio h2{
+	font-size: 20px;
+	font-weight: normal;
+	padding: 10px 60px 60px 0;
+}
+
+.portada{
+	background: url("../img/uno.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 450px;
+	filter: grayscale(100%);
+}
+
+/*Sección contenido*/
+.contenido{
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.verde{
+	background-color: #ABE188;
+	padding: 50px 0; 
+}
+
+.verde .about-pandas{
+	width: 550px;
+	padding: 40px 20px 20px 20px;
+	text-align: center;
+	margin-left: 430px;
+}
+
+.about-pandas h3{
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+/*Sección imágenes*/
+.panda-img{
+	padding-bottom: 20px;
+}
+
+.panda-dos{
+	background: url("../img/dos.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	filter: grayscale(100%);
+}
+
+.panda-img .verde h3{
+	background-color: #ABE188;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px; 
+}
+
+.verde .cuadros{
+	background-color: #ABE188;
+	padding: 0;
+	margin-left: 300px;
+}
+.verde .cuadros .panda-cuadros{
+	border: 10px solid whitesmoke;
+	display: inline;
+	margin: 30px 10px;
+    text-align: center;
+}
+
+/*Sección final*/
+.panda-tres{
+	background: url("../img/tres.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	filter: grayscale(100%);
+}
+
+footer p{
+	text-align: right;
+	font-weight: bold;
+	padding: 0 10px 10px 0;
+}
